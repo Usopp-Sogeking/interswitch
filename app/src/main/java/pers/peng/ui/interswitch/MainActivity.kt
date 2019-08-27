@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(p0: View?) {
         when(p0?.id){
-            R.id.fragment1_btn->replaceFragment(fragment1())
-            R.id.fragment2_btn->replaceFragment(fragment2())
-            R.id.fragment3_btn->replaceFragment(fragment3())
+            R.id.fragment1_btn->replaceFragment(Fragment1())
+            R.id.fragment2_btn->replaceFragment(Fragment2())
+            R.id.fragment3_btn->replaceFragment(Fragment3())
         }
     }
     fun replaceFragment(fragment:Fragment){

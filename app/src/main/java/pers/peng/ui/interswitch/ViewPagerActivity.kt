@@ -20,7 +20,7 @@ class ViewPagerActivity : AppCompatActivity(), View.OnClickListener{
         mButton1=findViewById(R.id.fragment1_btn)
         mButton2=findViewById(R.id.fragment2_btn)
         mButton3=findViewById(R.id.fragment3_btn)
-        val fragmentList:List<Fragment> = listOf(fragment1(),fragment2(),fragment3())
+        val fragmentList:List<Fragment> = listOf(Fragment1(),Fragment2(),Fragment3())
         mViewPager=findViewById(R.id.viewPager)
         val fm=supportFragmentManager
         mViewPager.offscreenPageLimit=3
